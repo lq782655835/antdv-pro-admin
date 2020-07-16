@@ -2,8 +2,9 @@
 module.exports = {
   theme: {
     // color: '#13c2c2',
-    // mode: 'night'
+    mode: 'dark'
   },
+  hideSetting: true,
   multiPage: true,
   animate: {
     disabled: true,
