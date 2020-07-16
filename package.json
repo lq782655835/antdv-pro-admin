@@ -1,14 +1,14 @@
 {
-  "name": "vue-antd-admin",
+  "name": "antdv-pro-admin",
   "version": "0.2.1",
-  "homepage": "https://iczer.github.io/vue-antd-admin",
+  "homepage": "https://github.com/lq782655835/antdv-pro-admin",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist -b pages -r https://gitee.com/iczer/vue-antd-admin.git",
+    "deploy": "gh-pages -d dist",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:deploy": "vuepress build docs && gh-pages -d docs/.vuepress/dist"

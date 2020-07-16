@@ -7,8 +7,7 @@ module.exports = {
   hideSetting: true,
   multiPage: true,
   animate: {
-    disabled: true,
-    name: 'roll',
-    direction: 'default'
+    name: 'slide',
+    direction: 'right'
   }
 }
